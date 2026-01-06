@@ -1,4 +1,4 @@
-package com.example;
+package dev.rieversed.nopause;
 /*? if fabric {*/
 import net.fabricmc.api.ModInitializer;
 /*?}*/
@@ -17,20 +17,20 @@ import net.neoforged.fml.common.Mod;
 /*?}*/
 
 /*? if forgeLike {*/
-/*@Mod("examplemod")
-public class ExampleMod {*/
+/*@Mod("nopause")
+public class Nopause {*/
 /*?}*/
 
 /*? if fabric {*/
-public class ExampleMod implements ModInitializer {
+public class Nopause implements ModInitializer {
 /*?}*/
 
     /*? if forge {*/
-    /*public ExampleMod(final FMLJavaModLoadingContext context) {}*/
+    /*public Nopause(final FMLJavaModLoadingContext context) {}*/
     /*?}*/
 
     /*? if neoforge {*/
-    /*public ExampleMod(IEventBus modEventBus, ModContainer modContainer) {}*/
+    /*public Nopause(IEventBus modEventBus, ModContainer modContainer) {}*/
     /*?}*/
 
     /*? if fabric {*/
